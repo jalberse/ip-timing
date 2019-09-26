@@ -11,11 +11,12 @@ if __name__ == "__main__":
         with open(sys.argv[1],'r') as f:
             doc = yaml.safe_load(f)
             for ip in doc['ips']:
+                actual_ip = ip.split('@')[1]
                 start = time.time()
-                requests.get(ip) # requests is blocking
+                r = requests.get(actual_ip) # requests is blocking
                 stop = time.time()
                 elapsed = stop - start
-                print(ip + "    " + str(elapsed))
+                print(ip + " " + str(elapsed) + " " + str(r.json()))
     except FileNotFoundError as fnf_error:
             print(fnf_error)
             exit()
