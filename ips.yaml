@@ -2,4 +2,3 @@
   ips:
     - us-west1_a_VM_Python@http://35.197.97.54/Project
     - us-east1_b_VM_Java@http://35.196.181.146:8080/randnum/hello
-    - ip-timing.appspot.com
