@@ -1,0 +1,17 @@
+us-west1_a_VM_Python@http://35.197.97.54/Project 0.10126304626464844 876918
+us-west1_a_app_Python@http://ip-timing.appspot.com/ 0.053156375885009766 133472
+us-east1_b_VM_Java@http://35.196.181.146:8080/randnum/hello 0.08063554763793945 976484
+us-east1_b_VM_Python@http://35.237.232.176 0.08323788642883301 93513
+us-east1_b_VM_Java@http://35.196.181.146:8080/randnum/hello 0.08356642723083496 185559
+asia-northeast1_a_app_Python@http://regions-254017.appspot.com/ 0.21974825859069824 397219
+asia-northeast1_a_VM_Python@http://34.84.95.192 0.4173879623413086 156520
+asia-south1_c_AppEngine_Python@https://timing-experiment-cs4263.appspot.com/ 1.8849430084228516 61211
+Error @ asia-northeast1_a_app_Java@https://glass-pen-254017.appspot.com
+asia-south-1_a_VM_Java@http://34.93.76.51:8080/rng/ 0.8730587959289551 115013
+Error @ asia-northeast1_b_VM_Java@http://34.85.71.249:8080/random/hello.jsp
+australiasoutheast1_b_vm_java@http://35.189.39.14/randnum/randnum 0.3862190246582031 315549
+australiasoutheast1_b_vm_python@http://35.189.43.96:5000 0.5186066627502441 697887
+australiasoutheast1_b_app_java@http://galvanic-ward-254017.appspot.com 1.2545802593231201 749409
+australiasoutheast1_b_app_python@http://python-aus.appspot.com/ 1.248178243637085 742593
+Error @ asia-south1_c_app_java@http://team-23-asia-southeast.appspot.com/
+Error @ asia-northeast2_a_VM_Java@http://34.97.51.216:8080/number.jsp
