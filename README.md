@@ -44,6 +44,21 @@ On the details page, click "Create Instance." This will create an instance from 
 
 Finally, start your server back up as you normally would if you stop/start your instance. How this is done will depend on your own configuration. For example, on our python deployment we run `sudo /opt/bitnami/ctlscript.sh restart apache`. You can choose to configure your system such that these commands are run on boot, making the transition seamless. 
 
+##  Any App Engine (Python or Java)
+
+Unfortunately, you cannot change an App Engine project's region after setting it. We will need to create another project in App Engine. *Make sure you have Django, Python 2 & 3, and Pip installed.*
+
+1. Create a new project in Google App Engine.
+2. Go to the Cloud Shell.
+3. Set your project ID in the session to your new project's ID using ```gcloud config set project [PROJECT_ID]```.
+4. Then configure your project's region to whatever you like using ```gcloud config set compute/region [YOUR-REGION]```. In our case, we will use ```us-west1```.
+5. Update using ```gcloud config list compute/region```.
+6. Select your region using ```region=[YOUR-REGION]```.
+7. Repeat steps 4-6 but with ```compute/zone```. In our case, we will set our zone to ```us-west1-a```.
+8. Clone our App Engine repository into your project using ```https://github.com/jalberse/ip-timing.git```.
+9. Create your application using ```gcloud app create```.
+20. Run ```gcloud app deploy``` to deploy your application.
+
 ## Results
 
 us-west1_a_VM_Python@http://35.197.97.54/Project 0.10211300849914551 295322
